@@ -1,0 +1,12 @@
+function solution(string) {
+  let updatedString = string.charAt(0)
+  console.log(updatedString)
+    for (let i = 1; i < string.length; i++) {
+      if (string.charAt(i) == string.charAt(i).toUpperCase()) {
+        updatedString = updatedString.concat(" ")
+      }
+      updatedString = updatedString.concat(string.charAt(i))
+      console.log(updatedString)
+    }
+  string = updatedString
+}
