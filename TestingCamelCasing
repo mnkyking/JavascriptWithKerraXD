@@ -8,5 +8,5 @@ function solution(string) {
       updatedString = updatedString.concat(string.charAt(i))
       console.log(updatedString)
     }
-  string = updatedString
+  return updatedString
 }
